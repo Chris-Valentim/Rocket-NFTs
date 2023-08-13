@@ -1,10 +1,12 @@
-import * as Resource from './Resource';
+import './index.css'
+
+import { Header } from "./components/Header";
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <>
+    <Header />
+    </>
   );
 }
 
