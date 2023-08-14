@@ -4,19 +4,16 @@ export const Wrapper = styled.div`
   background-color: gray;
 
   color: var(--text-color);
-  flex-wrap: nowrap;
+
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  
+
   margin-top: 90px;
   margin-left : 82px;
   margin-right: 80px;
   gap: 40px;
-`
-
-export const Content = styled.div`
-  display: grid;
 `
 
 export const GroupedAvatars = styled.div`
@@ -27,8 +24,8 @@ export const GroupedAvatars = styled.div`
 
 export const Info = styled.p`
   margin-top: 0;
-  margin-bottom: 55px;
-  width: 340px; 
+  margin-bottom: 55px; 
+  width: 340px;
 `
 
 export const AvatarsInfo = styled.p`
@@ -40,6 +37,7 @@ export const InformativeTitle = styled.div`
   font-weight: bold;
   margin: 0;
   font-size: 44px;
+  width: 520px;
 `
 
 export const StyledText = styled.strong`

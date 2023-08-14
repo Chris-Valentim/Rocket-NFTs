@@ -6,7 +6,7 @@ import badge from '../../../assets/badge.svg'
 const SectionOne = () => {
   return (
     <S.Wrapper>
-      <S.Content>
+      <div>
         <div>
           <S.Info>
             Mercado digital para colecionáveis em criptos e tokens não fungível (NFT).
@@ -20,7 +20,7 @@ const SectionOne = () => {
             </div>
           </S.GroupedAvatars>
         </div>
-      </S.Content>
+      </div>
       <S.InformativeTitle>
         <div>
           Descubra a verdadeira arte digital e coleione diversas <S.StyledText>NFTs</S.StyledText>
