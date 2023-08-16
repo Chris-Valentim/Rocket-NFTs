@@ -1,19 +1,17 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  background-color: gray;
 
   color: var(--text-color);
 
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
   margin-top: 90px;
-  margin-left : 82px;
-  margin-right: 80px;
-  gap: 40px;
+  margin-left: 82px;
+  margin-right: 82px;
 `
 
 export const GroupedAvatars = styled.div`
@@ -33,10 +31,16 @@ export const AvatarsInfo = styled.p`
 `
 
 export const InformativeTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+
   text-align: left;
   font-weight: bold;
-  margin: 0;
   font-size: 44px;
+
+  margin: 0;
   width: 520px;
 `
 

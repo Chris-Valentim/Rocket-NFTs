@@ -1,7 +1,7 @@
 import * as S from './styles'
 
-import logo from '../../assets/logo.svg';
-import logoMetaMask from '../../assets/logo_MetaMask.svg'
+import logo from '../../../assets/logo.svg';
+import logoMetaMask from '../../../assets/logo_MetaMask.svg'
 
 const Header = () => {
   return(

@@ -6,9 +6,10 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
 
+  gap: 16px;
+  margin-top: 40px;
   margin-left: 82px;
   margin-right: 80px;
-  gap: 16px;
 `
 
 export const Image = styled.img`

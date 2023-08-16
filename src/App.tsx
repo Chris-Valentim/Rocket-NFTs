@@ -1,14 +1,11 @@
 import './index.css'
 
-// import { Header } from "./components/Header";
-// import { SectionOne } from './components/Main 1/SectionOne';
-import { Gallery } from './components/Main 1/Gallery';
-
+import { MainOne } from './components/Main-1/index'
 
 function App() {
   return (
     <>
-      <Gallery />
+      <MainOne />
     </>
   );
 }
