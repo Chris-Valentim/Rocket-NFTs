@@ -4,6 +4,7 @@ import './index.css'
 // import { MainTwo } from './components/Main-2'
 // import { MainThree } from './components/Main-3';
 // import { MainFour } from './components/Main-4';
+import { Footer } from './components/Footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       {/* <MainTwo /> */}
       {/* <MainThree /> */}
       {/* <MainFour /> */}
+      <Footer />
     </>
   );
 }
