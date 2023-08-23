@@ -20,10 +20,12 @@ const Header = () => {
           </S.List>
         </S.Navigation>
       </nav>
-      <S.Button>
-        <img src={logoMetaMask} alt="logoMetaMask" />
-        Conectar carteira
-      </S.Button>
+      <S.StyledButton>
+        <S.Button>
+          <img src={logoMetaMask} alt="logoMetaMask" />
+          Conectar carteira
+        </S.Button>
+      </S.StyledButton>
     </S.Wrapper>
   )
 }

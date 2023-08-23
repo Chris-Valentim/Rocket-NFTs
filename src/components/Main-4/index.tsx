@@ -82,10 +82,12 @@ const MainFour = () => {
           </S.InfoCard>
         </S.Card>
       </S.Content>
-      <S.Button href="/">
-        Ver todos artistas 
-        <img src={arrowOrange} alt="arrow-Orange" />
-      </S.Button>
+      <S.StyledButton>
+        <S.Button href="/">
+          Ver todos artistas 
+          <img src={arrowOrange} alt="arrow-Orange" />
+        </S.Button>
+      </S.StyledButton>
     </S.Wrapper>
   )
 }

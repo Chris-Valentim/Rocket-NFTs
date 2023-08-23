@@ -18,13 +18,27 @@ export const Navigation = styled.ul`
 
 export const List = styled.li`
   list-style: none;
+
+  :hover{
+    cursor: pointer;
+    color: var(--color-logo);
+  }
 `
 
 export const Button = styled.button`
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-weight: bold;
+`
+
+export const StyledButton = styled.div`
+  border: none;
+  background-color: var(--text-color);
+  
+  :hover{
+    cursor: pointer;
+    background-color: var(--color-logo);
+    color: var(--text-color);
+  }
 `
 
 export const Access = styled.a`

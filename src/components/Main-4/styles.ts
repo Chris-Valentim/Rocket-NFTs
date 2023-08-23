@@ -99,6 +99,15 @@ export const PhotosNumbers = styled.p`
   font-size: 20px;
 `
 
+export const StyledButton = styled.div`
+  :hover{
+    background-color: var(--card-color);
+
+    padding: 10px 10px;
+    border-radius: 15px;
+  }
+`
+
 export const Button = styled.a`
   display: flex;
   justify-content: center;

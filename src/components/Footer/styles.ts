@@ -55,7 +55,7 @@ export const LeftFooter = styled.div`
   padding-left: 80px;
   padding-right: 62px;
   padding-bottom: 82px;
-  width: 500px;
+  width: 35%;
 `
 
 export const TitleFooter = styled.h1`
@@ -85,6 +85,13 @@ export const Input = styled.input`
 
   &::placeholder{
     font-size: 16px;
+  }
+`
+
+export const StyledButton = styled.div`
+  :hover{
+    background-color: var(--color-logo);
+    color: var(--text-color);
   }
 `
 
@@ -133,6 +140,13 @@ export const TitleListFooter = styled.h4`
   color: var(--text-color);
 `
 
+export const StyledList = styled.li`
+  :hover{
+    color: var(--text-color);
+    text-decoration: underline;
+  }
+`
+
 export const List = styled.a`
   text-decoration: none;
   color: var(--subtitle-color);
@@ -159,7 +173,9 @@ export const Site = styled.a`
 
   list-style: none;
   text-decoration: none;
+`
 
+export const StyledSite = styled.div`
   :hover{
     cursor: pointer;
     color: var(--text-color);
@@ -183,5 +199,8 @@ export const SocialButton = styled.button`
 
   :hover{
     cursor: pointer;
+    background-color: var(--text-color);
+    padding: 5px;
+    border-radius: 15px;
   }
 `

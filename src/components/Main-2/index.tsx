@@ -31,7 +31,7 @@ const MainTwo = () => {
           </S.Content>
         </S.Description>
         <div>
-          <img src={banner} alt="banner" />
+          <S.Banner src={banner} alt="banner" />
         </div>
       </S.Container>
     </S.Wrapper>

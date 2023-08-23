@@ -28,9 +28,11 @@ const Footer = () => {
               type="email"
               placeholder='nft@rocketseat.com.br'
             />
-            <S.SubmitButton>
-              Enviar
-            </S.SubmitButton>
+            <S.StyledButton>
+              <S.SubmitButton>
+                Enviar
+              </S.SubmitButton>
+            </S.StyledButton>
           </S.MailButton>
         </S.LeftFooter>
         <S.RightFooter>
@@ -39,18 +41,18 @@ const Footer = () => {
               <S.TitleListFooter>
                 Empresa
               </S.TitleListFooter>
-              <li>
+              <S.StyledList>
                 <S.List href="/">Sobre</S.List>
-              </li>
-              <li>
+              </S.StyledList>
+              <S.StyledList>
                 <S.List href="/">Serviços</S.List>
-              </li>
-              <li>
+              </S.StyledList>
+              <S.StyledList>
                 <S.List href="/">Time</S.List>
-              </li>
-              <li>
+              </S.StyledList>
+              <S.StyledList>
                 <S.List href="/">Carreira</S.List>
-              </li>
+              </S.StyledList>
             </S.Column>
           </div>
           <div>
@@ -58,18 +60,18 @@ const Footer = () => {
               <S.TitleListFooter>
                 Mapa
               </S.TitleListFooter>
-              <li>
+              <S.StyledList>
                 <S.List href="/">Galeria</S.List>
-              </li>
-              <li>
+              </S.StyledList>
+              <S.StyledList>
                 <S.List href="/">Populares</S.List>
-              </li>
-              <li>
+              </S.StyledList>
+              <S.StyledList>
                 <S.List href="/">Vendas</S.List>
-              </li>
-              <li>
+              </S.StyledList>
+              <S.StyledList>
                 <S.List href="/">Contato</S.List>
-              </li>
+              </S.StyledList>
             </S.Column>
           </div>
           <div>
@@ -77,24 +79,29 @@ const Footer = () => {
               <S.TitleListFooter>
                 Links
               </S.TitleListFooter>
-              <li>
+              <S.StyledList>
                 <S.List href="/">FAQs</S.List>
-              </li>
-              <li>
+              </S.StyledList>
+              <S.StyledList>
                 <S.List href="/">Termos</S.List>
-              </li>
-              <li>
+              </S.StyledList>
+              <S.StyledList>
                 <S.List href="/">Política</S.List>
-              </li>
-              <li>
+              </S.StyledList>
+              <S.StyledList>
                 <S.List href="/">Ajuda</S.List>
-              </li>
+              </S.StyledList>
             </S.Column>
           </div>
         </S.RightFooter>
       </S.MiddleFooter>
       <S.BottomFooter>
-        <S.Site href="https://www.rocketseat.com.br/discover">www.rocketseat.com.br</S.Site>
+        <S.StyledSite>
+          <S.Site 
+            href="https://www.rocketseat.com.br/discover">
+              www.rocketseat.com.br
+          </S.Site>
+        </S.StyledSite>
         <S.SocialMedia>
           <S.SocialButton>
             <img
