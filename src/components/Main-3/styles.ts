@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
 
   display: flex;
   flex-direction: column;
+  height: 100%;
 `
 
 export const Title = styled.h1`
@@ -14,7 +15,9 @@ export const Title = styled.h1`
   font-weight: bold;
   font-size: 50px;
 
-  margin-bottom: 80px;
+  margin: 0;
+  margin-top: 138px;
+  margin-bottom: 158px;
 `
 
 export const StyledText = styled.span`
@@ -43,9 +46,9 @@ export const AvatarName = styled.p`
   justify-content: space-between;
 `
 
-export const CardColumnOne = styled.div`
+export const DividingLine = styled.div`
   border-right: 1px solid var(--subtitle-color);
-  padding-right: 200px;
-` 
-
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`

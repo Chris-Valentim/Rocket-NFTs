@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   color: var(--text-color);
 
   border-bottom: 2px solid var(--card-color);
-  height: 610px;
+  height: 660px;
 `
 
 export const Info = styled.aside`
@@ -17,10 +17,16 @@ export const Info = styled.aside`
   justify-content: center;
   align-items: center;
 
-  width: 281px;
+  width: 30%;
   gap: 70px;
-  height: 610px;
+  height: 660px;
+  
   border-right: 2px solid  var(--card-color);
+`
+
+export const Container = styled.div`
+  margin-top: 81px;
+  width: 100%;
 `
 
 export const Number = styled.h1`
@@ -40,16 +46,17 @@ export const SalesDescription = styled.p`
 
 export const Description = styled.div`
   display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--subtitle-color);
 `
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-
+  
   width: 350px;
-  margin: 0 auto;
   gap: 63px;
-  margin-bottom: 71px;
+  margin-bottom: 70px;
 `
 
 export const StyledText = styled.span`
@@ -58,4 +65,8 @@ export const StyledText = styled.span`
 
 export const TitleInfo = styled.p`
   text-decoration: underline;
+`
+
+export const Text = styled.p`
+  margin: 0;
 `

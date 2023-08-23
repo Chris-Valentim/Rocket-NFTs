@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   background-color: var(--card-color);
+  padding-top: 82px;
+  height: 100%;
 `
 
 export const TopFooter = styled.div`
@@ -10,7 +12,6 @@ export const TopFooter = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  padding-top: 82px;
   padding-left: 84px;
   padding-right: 88px;
   padding-bottom: 60px;
@@ -37,19 +38,24 @@ export const arrowBlackImg = styled.img`
 
 export const MiddleFooter = styled.div`
   display: flex;
-  flex-wrap: wrap;
-
+  align-items: center;
+  width: 100%;
   border-bottom: 1px solid var(--subtitle-color);
 `
 
 export const LeftFooter = styled.div`
-  border-top: 1px solid var(--subtitle-color);
+  border-right: 1px solid var(--subtitle-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 
   padding-top: 67px;
   padding-left: 80px;
   padding-right: 62px;
   padding-bottom: 82px;
-  width: 350px;
+  width: 500px;
 `
 
 export const TitleFooter = styled.h1`
@@ -98,13 +104,13 @@ export const SubmitButton = styled.button`
 `
 
 export const RightFooter = styled.div`
-  border-left: 1px solid var(--subtitle-color);
-
   display: flex;
   align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  padding-left: 122px;
-  gap: 128px;
+
+  width: 80%;
+  gap: 20px;
 `
 
 export const Column = styled.ul`

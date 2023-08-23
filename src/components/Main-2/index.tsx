@@ -19,21 +19,21 @@ const MainTwo = () => {
           <S.SalesDescription>Artistas</S.SalesDescription>
         </div>
       </S.Info>
-      <div>
+      <S.Container>
         <S.Description>
           <S.Content>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id <S.StyledText>potenti diam</S.StyledText> et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</p>
+            <S.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id <S.StyledText>potenti diam</S.StyledText> et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</S.Text>
             <S.TitleInfo>Lorem ipsum</S.TitleInfo>
           </S.Content>
           <S.Content>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id <S.StyledText>potenti diam</S.StyledText> et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</p>
+            <S.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id <S.StyledText>potenti diam</S.StyledText> et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</S.Text>
             <S.TitleInfo>Lorem ipsum</S.TitleInfo>
           </S.Content>
         </S.Description>
         <div>
           <img src={banner} alt="banner" />
         </div>
-      </div>
+      </S.Container>
     </S.Wrapper>
   )
 }
