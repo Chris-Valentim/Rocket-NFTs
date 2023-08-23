@@ -13,7 +13,7 @@ const MainThree = () => {
         <S.StyledText>Populares</S.StyledText> da semana
       </S.Title>
       <S.Content>
-        <S.CardColumnOne>
+        <div>
           <div>
             <S.SubTitle>Astronauta 1<img src={arrowWhite} alt="arrow-White" /></S.SubTitle>
             <S.AvatarName>Mayk Brito <S.StyledText>1.50 RKT</S.StyledText></S.AvatarName>
@@ -24,7 +24,8 @@ const MainThree = () => {
             <S.AvatarName>João Inácio (Biro) <S.StyledText>3.75 RKT</S.StyledText></S.AvatarName>
             <img src={astronautaTwo} alt="astronauta Two" />
           </div>
-        </S.CardColumnOne>
+        </div>
+        <S.DividingLine></S.DividingLine>
         <div>
           <div>
             <S.SubTitle>Astronauta 3<img src={arrowWhite} alt="arrow-White" /></S.SubTitle>

@@ -7,6 +7,10 @@ export const Wrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
+  padding-top: 151px;
+  padding-bottom: 147px;
+  height: 100%;
 `
 
 export const Title = styled.h1`
