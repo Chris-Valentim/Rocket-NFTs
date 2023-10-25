@@ -9,6 +9,13 @@ export const Wrapper = styled.div`
 
   border-bottom: 2px solid var(--card-color);
   height: 660px;
+
+  @media (max-width: 425px) {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
 `
 
 export const Info = styled.aside`
@@ -17,16 +24,31 @@ export const Info = styled.aside`
   justify-content: center;
   align-items: center;
 
-  width: 30%;
+  width: 20%;
   gap: 70px;
-  height: 660px;
+  height: 100%;
   
   border-right: 2px solid  var(--card-color);
+
+  @media (max-width: 425px) {
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+    margin-top: 40px;
+    width: 100%;
+    gap: 20px;
+  }  
 `
 
 export const Container = styled.div`
   margin-top: 81px;
   width: 100%;
+
+  @media (max-width: 425px) {
+    margin-top: 40px;
+  }
 `
 
 export const Number = styled.h1`
@@ -48,6 +70,11 @@ export const Description = styled.div`
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid var(--subtitle-color);
+
+  @media (max-width: 425px) {
+    margin-bottom: 60px;
+    border: none;
+  }
 `
 
 export const Content = styled.div`
@@ -57,6 +84,14 @@ export const Content = styled.div`
   width: 350px;
   gap: 63px;
   margin-bottom: 70px;
+
+  @media (max-width: 425px) {
+    display: flex;
+    text-align: center;
+
+    gap: 30px;
+    margin-bottom: 0;
+  }
 `
 
 export const StyledText = styled.span`
@@ -79,4 +114,9 @@ export const Banner = styled.img`
   background-position: center;
   position: relative;
   background-repeat: no-repeat;
+
+  @media (max-width: 425px) {
+    height: 150px;
+    width: 100%;
+  }
 `
