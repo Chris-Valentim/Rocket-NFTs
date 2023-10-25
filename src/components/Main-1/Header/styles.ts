@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import logoMetaMask from '../../../assets/logo_MetaMask.svg'
+
 export const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -7,13 +9,34 @@ export const Wrapper = styled.div`
   align-items: center;
 
   padding-top: 57px;
-  margin-left: 82px;
+  margin-left: 80px;
   margin-right: 80px;
+
+  @media (max-width: 425px) {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+`
+
+export const Logo = styled.img`
+  @media (max-width: 425px) {
+    width: 150px;
+  }
 `
 
 export const Navigation = styled.ul`
   display: flex;
   gap: 24px;
+
+  @media (max-width: 425px) {
+    gap: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+  }
 `
 
 export const List = styled.li`
@@ -22,23 +45,34 @@ export const List = styled.li`
   :hover{
     cursor: pointer;
     color: var(--color-logo);
+    text-decoration: underline;
   }
 `
 
 export const Button = styled.button`
-  display: flex;
-  align-items: center;
-`
-
-export const StyledButton = styled.div`
-  border: none;
   background-color: var(--text-color);
-  
-  :hover{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+
+  &:hover{
     cursor: pointer;
     background-color: var(--color-logo);
     color: var(--text-color);
   }
+
+  
+`
+
+export const IconButton = styled.div`
+  background-image: url(${logoMetaMask});
+  background-repeat: no-repeat;
+
+  height: 30px;
+  width: 40px;
 `
 
 export const Access = styled.a`

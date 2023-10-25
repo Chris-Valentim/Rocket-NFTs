@@ -23,7 +23,7 @@ const SectionOne = () => {
       </div>
       <S.InformativeTitle>
         <div>
-          Descubra a verdadeira arte digital e coleione diversas <S.StyledText>NFTs</S.StyledText>
+          Descubra a verdadeira arte digital e colecione diversas <S.StyledText>NFTs</S.StyledText>
         </div>
       </S.InformativeTitle>
       <img src={badge} alt="badge" />

@@ -1,12 +1,15 @@
 import * as S from './styles'
 
 import logo from '../../../assets/logo.svg';
-import logoMetaMask from '../../../assets/logo_MetaMask.svg'
 
 const Header = () => {
   return(
     <S.Wrapper>
-      <img src={logo} alt="logo" />
+      <S.Logo
+        aria-label='Logo' 
+        src={logo} 
+        alt="logo" 
+      />
       <nav>
         <S.Navigation>
           <S.List>
@@ -20,12 +23,10 @@ const Header = () => {
           </S.List>
         </S.Navigation>
       </nav>
-      <S.StyledButton>
         <S.Button>
-          <img src={logoMetaMask} alt="logoMetaMask" />
-          Conectar carteira
+         <S.IconButton />
+          Conectar Carteira
         </S.Button>
-      </S.StyledButton>
     </S.Wrapper>
   )
 }
