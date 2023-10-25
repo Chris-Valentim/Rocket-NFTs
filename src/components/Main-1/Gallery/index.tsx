@@ -12,35 +12,35 @@ import galleryEight from '../../../assets/galeria-8.png'
 const Gallery = () => {
   return (
     <S.Wrapper>
-      <S.Image
+      <S.GalleryImage
         src={galleryOne}
         alt="galeria 1"
       />
-      <S.Image
+      <S.GalleryImage
         src={galleryTwo}
         alt="galeria 2"
       />
-      <S.Image
+      <S.GalleryImage
         src={galleryThree}
         alt="galeria 3"
       />
-      <S.Image
+      <S.GalleryImage
         src={galleryFour}
         alt="galeria 4"
       />
-      <S.Image
+      <S.GalleryImage
         src={galleryFive}
         alt="galeria 5"
       />
-      <S.Image
+      <S.GalleryImage
         src={gallerySix}
         alt="galeria 6"
       />
-      <S.Image
+      <S.GalleryImage
         src={gallerySeven}
         alt="galeria 7"
       />
-      <S.Image
+      <S.GalleryImage
         src={galleryEight}
         alt="galeria 8"
       />

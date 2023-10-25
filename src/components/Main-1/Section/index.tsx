@@ -2,7 +2,7 @@ import * as S from './styles'
 
 import groupAvarts from '../../../assets/group-avarts.png'
 
-const SectionOne = () => {
+const Section = () => {
   return (
     <S.Wrapper>
       <div>
@@ -31,4 +31,4 @@ const SectionOne = () => {
   )
 }
 
-export { SectionOne }
+export { Section }

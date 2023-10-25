@@ -8,10 +8,15 @@ export const Wrapper = styled.div`
 
   gap: 16px;
   margin-top: 40px;
-  margin-left: 82px;
+  margin-left: 80px;
   margin-right: 80px;
+
+  @media (max-width: 425px) {
+    margin-top: 5px;
+    gap: 0;
+  }
 `
 
-export const Image = styled.img`
+export const GalleryImage = styled.img`
   margin-top: 44px;
 `
