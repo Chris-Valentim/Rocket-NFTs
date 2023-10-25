@@ -13,6 +13,8 @@ export const Wrapper = styled.div`
   margin-right: 80px;
 
   @media (max-width: 425px) {
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     justify-content: center;
     gap: 10px;
