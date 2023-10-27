@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
 
   @media (max-width: 425px) {
     padding-top: 0;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     text-align: center;
   }
 `
@@ -132,4 +132,10 @@ export const Button = styled.a`
   font-weight: 500;
   font-size: 20px;
   text-decoration: none;
+
+  @media (max-width: 425px) {
+    gap: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+  }
 `

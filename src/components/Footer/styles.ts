@@ -4,6 +4,10 @@ export const Wrapper = styled.div`
   background-color: var(--card-color);
   padding-top: 82px;
   height: 100%;
+
+  @media (max-width: 425px) {
+    padding-top: 50px;
+  }
 `
 
 export const TopFooter = styled.div`
@@ -12,11 +16,20 @@ export const TopFooter = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  padding-left: 84px;
-  padding-right: 88px;
+  padding-left: 80px;
+  padding-right: 80px;
   padding-bottom: 60px;
 
   border-bottom: 1px solid var(--subtitle-color);
+
+  @media (max-width: 425px) {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    gap: 30px;
+    padding-bottom: 30px;
+  }
 `
 
 export const ButtomFooter = styled.button`
@@ -26,7 +39,7 @@ export const ButtomFooter = styled.button`
   margin: 0;
   border: none;
 
-  :hover{
+  &:hover{
     cursor: pointer;
     background-color: var(--text-color);
   }
@@ -41,6 +54,11 @@ export const MiddleFooter = styled.div`
   align-items: center;
   width: 100%;
   border-bottom: 1px solid var(--subtitle-color);
+
+  @media (max-width: 425px) {
+    display: grid;
+    
+  }
 `
 
 export const LeftFooter = styled.div`
@@ -51,11 +69,15 @@ export const LeftFooter = styled.div`
   justify-content: center;
   flex-wrap: wrap;
 
-  padding-top: 67px;
-  padding-left: 80px;
-  padding-right: 62px;
-  padding-bottom: 82px;
+  padding: 67px 62px 82px 80px;
   width: 35%;
+
+  @media (max-width: 425px) {
+    border: none;
+    width: 80%;
+    padding: 10px 40px 40px;
+    gap: 20px;
+  }
 `
 
 export const TitleFooter = styled.h1`
@@ -63,6 +85,10 @@ export const TitleFooter = styled.h1`
 
   font-weight: 500;
   font-size: 30px;
+
+  @media (max-width: 425px) {
+    text-align: center;
+  }
 `
 
 export const StyledText = styled.span`
@@ -118,6 +144,13 @@ export const RightFooter = styled.div`
 
   width: 80%;
   gap: 20px;
+
+  @media (max-width: 425px) {
+    width: 100%;
+    gap: 0;
+    text-align: center;
+    margin-bottom: 40px;
+  }
 `
 
 export const Column = styled.ul`
@@ -162,10 +195,15 @@ export const BottomFooter = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  padding-top: 69px;
-  padding-left: 84px;
-  padding-right: 88px;
-  padding-bottom: 61px;               
+  padding: 69px 80px 61px 80px;
+  
+  @media (max-width: 425px) {
+    display: grid;
+    justify-content: center;
+
+    gap: 20px;
+    padding: 20px 40px 30px 40px;
+  }
 `
 
 export const Site = styled.a`
@@ -173,34 +211,53 @@ export const Site = styled.a`
 
   list-style: none;
   text-decoration: none;
+
+  @media (max-width: 425px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const StyledSite = styled.div`
-  :hover{
+  &:hover{
     cursor: pointer;
     color: var(--text-color);
+
+    @media (max-width: 425px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 `
 
 export const SocialMedia = styled.div`
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
 
   gap: 50px;
-  margin: 0 15px;
+
+  @media (max-width: 425px) {
+    gap: 25px;
+  }
 `
 
 export const SocialButton = styled.button`
-  padding: 0;
   background-color: var(--card-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
   border: none;
 
-  :hover{
+  &:hover{
     cursor: pointer;
     background-color: var(--text-color);
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 100%;
   }
 `
