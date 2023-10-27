@@ -16,7 +16,10 @@ const MainFour = () => {
       </S.Title>
       <S.Content>
         <S.Card>
-          <img src={artistaOne} alt="artista-One" />
+          <img 
+            src={artistaOne} 
+            alt="artista-One" 
+          />
           <S.InfoCard>
             <S.AvatarName>
               Mayk Brito
@@ -27,7 +30,10 @@ const MainFour = () => {
           </S.InfoCard>
         </S.Card>
         <S.Featured>
-          <img src={artistaTwo} alt="artista-Two" />
+          <img 
+            src={artistaTwo} 
+            alt="artista-Two" 
+          />
           <S.FeaturedCard>
             <S.FeaturedAvatarName>
               Jakeliny G.
@@ -38,7 +44,10 @@ const MainFour = () => {
           </S.FeaturedCard>
         </S.Featured>
         <S.Card>
-          <img src={artistaThree} alt="artista-Three" />
+          <img 
+            src={artistaThree} 
+            alt="artista-Three" 
+          />
           <S.InfoCard>
             <S.AvatarName>
               João I.
@@ -49,7 +58,10 @@ const MainFour = () => {
           </S.InfoCard>
         </S.Card>
         <S.Card>
-          <img src={artistaFour} alt="artista-Four" />
+          <img 
+            src={artistaFour} 
+            alt="artista-Four" 
+          />
           <S.InfoCard>
             <S.AvatarName>
               Tamires Santos
@@ -60,7 +72,10 @@ const MainFour = () => {
           </S.InfoCard>
         </S.Card>
         <S.Card>
-          <img src={artistaFive} alt="artista-Five" />
+          <img 
+            src={artistaFive} 
+            alt="artista-Five" 
+          />
           <S.InfoCard>
             <S.AvatarName>
               Ana Silva
@@ -71,7 +86,10 @@ const MainFour = () => {
           </S.InfoCard>
         </S.Card>
         <S.Card>
-          <img src={artistaSix} alt="artista-Six" />
+          <img 
+            src={artistaSix} 
+            alt="artista-Six" 
+          />
           <S.InfoCard>
             <S.AvatarName>
               Diego F.
@@ -85,7 +103,10 @@ const MainFour = () => {
       <S.StyledButton>
         <S.Button href="/">
           Ver todos artistas 
-          <img src={arrowOrange} alt="arrow-Orange" />
+          <img 
+            src={arrowOrange} 
+            alt="arrow-Orange" 
+          />
         </S.Button>
       </S.StyledButton>
     </S.Wrapper>

@@ -4,10 +4,7 @@ const MainThree = () => {
   return (
     <S.Wrapper>
       <S.Title>
-        <S.StyledText>
-          Populares
-        </S.StyledText> 
-        da semana
+        <S.StyledText>Populares</S.StyledText> da semana
       </S.Title>
       <S.Content>
         <div>

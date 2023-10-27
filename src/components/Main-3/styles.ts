@@ -70,6 +70,10 @@ export const DividingLine = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 425px) {
+    border: none;
+  }
 `
 
 export const ImageArrow = styled.span`

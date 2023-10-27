@@ -8,18 +8,27 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   
-  padding-top: 151px;
-  padding-bottom: 147px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   height: 100%;
+
+  @media (max-width: 425px) {
+    padding-top: 0;
+    padding-bottom: 50px;
+    text-align: center;
+  }
 `
 
 export const Title = styled.h1`
   color: var(--text-color);
-
   font-weight: bold;
   font-size: 50px;
-
   margin-bottom: 120px;
+
+  @media (max-width: 425px) {
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
 `
 
 export const StyledText = styled.span`
@@ -32,7 +41,11 @@ export const Content = styled.div`
   align-items: center;
   flex-wrap: wrap;
 
-  gap: 111px;
+  gap: 100px;
+
+  @media (max-width: 425px) {
+    gap: 50px;
+  }
 `
 
 export const Card = styled.div`
@@ -102,8 +115,6 @@ export const PhotosNumbers = styled.p`
 export const StyledButton = styled.div`
   :hover{
     background-color: var(--card-color);
-
-    padding: 10px 10px;
     border-radius: 15px;
   }
 `
@@ -115,6 +126,7 @@ export const Button = styled.a`
 
   gap: 20px;
   margin-top: 54px;
+  padding: 15px;
   
   color: var(--text-color);
   font-weight: 500;
